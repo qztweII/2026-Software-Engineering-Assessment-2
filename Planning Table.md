@@ -1,5 +1,4 @@
-# 2026-Software-Engineering-Assessment-2
-## Planning table
+# Planning table
 | Hour  | Step                               | Why                                                                                                                             | Expected result                                                                      | Time       |
 |-------|------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|------------|
 | 1     | Game mechanics design              | I need to first know what the game will do before I think of Classes and such                                                   | A procedure section outlining how a round is played.                                 | 80 minutes |
@@ -14,4 +13,3 @@
 | 10    | Social-Ethical evaluation          | To evaluate estimated game rating and impact.                                                                                   | Four paragraphs explaining Individual, Social, Legal and Environmental impacts       | 2 hours    |
 | 11    |                  "                 |                                                                "                                                                |                                           "                                          |            |
 | 12-18 | (Reserve time)                     | Portions of it may be used in other tasks should I overestimate the time taken to do the task, or if I wish to refine a section |                                                                                      | 4 hours    |
-## 
