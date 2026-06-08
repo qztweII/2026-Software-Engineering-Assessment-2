@@ -9,13 +9,13 @@
 4. Should a draw occur, the two cards will be placed in a 'reserve deck'. When the next round is played, cards in the reserve deck will be given to the winner. 
 5. Game will continue until one side has all of the cards, that player declared the winner of the game. 
 
-### Flow chart:
-
 ### User interface
 
 1. The player will be greeted with a setup game menu. This will have bot difficulty, number of cards per side (10 - 60) and play button. 
 2. After the game, the player will be asked if they want to play again. 
 
 ### Structure chart:
+
+![Structure chart](images/structureChart1.png)
 
 ### Story boards:
