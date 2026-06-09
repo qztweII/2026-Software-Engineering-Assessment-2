@@ -19,3 +19,4 @@
 ![Structure chart](images/structureChart1.png)
 
 ### Story boards:
+![Storyboard](images/storyboard.png)
