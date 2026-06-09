@@ -1,6 +1,24 @@
 # 2026-Software-Engineering-Assessment-2
 
-## Game mechanics design (Part D & E):
+## Game mechanics design (Part A, D & E):
+### Data selection and game attributes:
+The game will use six attributes from cars in carsale, in the order of possibly most powerful to least powerful attribute:
+
+- Price
+    - This is an easy, familiar and highly obvious stat that people will instantly recognise. However, having higher prices usually correspond to having higher other attributes. 
+- Release year
+    - Newer cars 
+- Tare mass
+    - Cars are highly variable in terms of tare mass, and this. However, it is probably affected by price. 
+- Power to weight
+    - This is chosen instead of engine power to remove the heavy car advantage as they require more power to move at the same speed. Engine quality is sometimes measured in time to accelerate to 100 km/h, but I was unable to find it on carsales, and I don't want to explain to those who don't know cars that this stat is best when it is low, considering other stats are the higher the better. 
+- Wade depth
+    - This is for z
+- Length
+    - This is a 'wild card' stat, hopefully redeeming any 'bad' cars that appear, but otherwise probably has little influence on the game and was placed to create the sixth attribute. 
+
+
+
 ### Game procedure:
 
 1. The player and opponent (a bot) will each be dealt a certain number of cards. The exact number is determined by the player, ranging from 10 to 60 per player. 
@@ -18,5 +36,5 @@
 
 ![Structure chart](images/structureChart1.png)
 
-### Story boards:
+### UI Story boards:
 ![Storyboard](images/storyboard.png)
