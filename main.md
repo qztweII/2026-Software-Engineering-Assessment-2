@@ -7,15 +7,15 @@ The game will use six attributes from cars in carsale, in the order of possibly 
 - Price
     - This is an easy, familiar and highly obvious stat that people will instantly recognise. However, having higher prices usually correspond to having higher other attributes. 
 - Release year
-    - Newer cars 
+    - Cars are 
 - Tare mass
     - Cars are highly variable in terms of tare mass, and this. However, it is probably affected by price. 
 - Power to weight
     - This is chosen instead of engine power to remove the heavy car advantage as they require more power to move at the same speed. Engine quality is sometimes measured in time to accelerate to 100 km/h, but I was unable to find it on carsales, and I don't want to explain to those who don't know cars that this stat is best when it is low, considering other stats are the higher the better. 
-- Wade depth
-    - This is for z
 - Length
-    - This is a 'wild card' stat, hopefully redeeming any 'bad' cars that appear, but otherwise probably has little influence on the game and was placed to create the sixth attribute. 
+    - There needs to some information on the car's dimensions. Length is quite basic, but works. 
+- Wade depth
+    - This is a 'wild card' stat, hopefully redeeming any 'bad' cars that appear as this is not affected much by other stats, but otherwise probably has little influence on the game and was placed to create the sixth attribute.
 
 
 
