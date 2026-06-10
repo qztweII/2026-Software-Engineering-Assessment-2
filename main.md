@@ -38,3 +38,78 @@ The game will use six attributes from cars in carsale, in the order of possibly 
 
 ### UI Story boards:
 ![Storyboard](images/storyboard.png)
+
+## Classes & diagram (Part B & C)
+### Diagram
+
+
+### Classes explanation:
+#### Car:
+> This refers to raw car data taken from carsales.com.au. 
+
+Data:
+- Too many to list
+
+Methods: 
+- None
+
+#### Card:
+> This inherits the name, picture and six attributes from car class. 
+
+Data:
+- picture: image
+- name: string
+- price: int
+- release_year: int
+- tare_mass: int
+- power_to_weight: int
+- length: int
+- wade_depth: int
+
+Method:
+- None
+
+#### Deck
+> This contains cards for each player
+
+Data:
+- cards: list
+
+Methods:
++ begin_game: void
++ check_empty(): boolean
++ give_card(): Card
++ receive_card(): void
+
+#### Player
+> This is the class that the user directly interacts with. Players choose the attribute they want to compare. 
+
+Data:
+- deck: Deck
+
+Methods:
+- choose_attributes(): string
+
+#### Bot
+> This is a variant of player class that is computer controlled. Its difficulty is determined by the ease variable, which is the chance that the bot chooses a suboptimal attribute on the card. It determines the optimal attribute by taking the average of each attribute in its deck and comparing the percentage difference between each attribute on the card. 
+
+Data:
+- ease: float
+- averages: list
+
+Methods:
++ get_averages(): void
++ choose_attribute(): string (This overrides `player.choose_attribute()`)
++ set_diffculty(): void 
+
+#### Game
+> This is the main game system. This keeps track of whose turn it is to choose an attribute. It processes all of the cards played during the round and determines who wins the round, and in the event of a tie, keep the cards to give to next round's winner. 
+
+Data:
+- turn: int
+- current_cards: list
+- chosen_attribute: string
+- reserve_deck: list
+Methods:
++ determine_winner()
++ exit()
