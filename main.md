@@ -7,7 +7,7 @@ The game will use six attributes from cars in carsale, in the order of possibly 
 - Price
     - This is an easy, familiar and highly obvious stat that people will instantly recognise. However, having higher prices usually correspond to having higher other attributes. 
 - Release year
-    - Cars are 
+    - This is another obvious stat that people will also understand quickly. However, this alone can cause a 'crappy' car to beat an extremely good car just because it was slightly older, but usually this would cause a draw because there are only so many years a car can be made in that can be sold on carsales.com.au. 
 - Tare mass
     - Cars are highly variable in terms of tare mass, and this. However, it is probably affected by price. 
 - Power to weight
@@ -17,7 +17,9 @@ The game will use six attributes from cars in carsale, in the order of possibly 
 - Wade depth
     - This is a 'wild card' stat, hopefully redeeming any 'bad' cars that appear as this is not affected much by other stats, but otherwise probably has little influence on the game and was placed to create the sixth attribute.
 
+Game balance:
 
+An attribute would be considered unfair when such attribute correlates to other attributes becoming high. This makes some cars overpowered while others will have no chances. In order to make the game more fair, I have chosen attributes that are quite seperate so there is more chance that cards are not totally overpowered and others completely useless. 
 
 ### Game procedure:
 
