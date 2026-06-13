@@ -19,7 +19,7 @@ The game will use six attributes from cars in carsale, in the order of possibly 
 
 Game balance:
 
-An attribute would be considered unfair when such attribute correlates to other attributes becoming high. This makes some cars overpowered while others will have no chances. In order to make the game more fair, I have chosen attributes that are quite seperate so there is more chance that cards are not totally overpowered and others completely useless. 
+An attribute would be considered unfair when such attribute correlates to other attributes becoming high. This makes some cars overpowered while others will have no chances. In order to make the game more fair, I have chosen attributes that are quite seperate from each other so there is more chance that cards are not totally overpowered and others completely useless. 
 
 ### Game procedure:
 
@@ -115,3 +115,21 @@ Data:
 Methods:
 + determine_winner()
 + exit()
+
+
+## Ethical, legal, envrionmental (Part F)
+**Individual**
+
+This game affects individuals by encouraging that large and expensive cars are better. This is because of the way the game prioritises cars of higher cost, newest year, and largest size, weight and height (in the form of wade height). This will cause people to value expensive cars. 
+
+**Social**
+
+This game affects society by making expensive and large cars appear like status symbols and exclude those who cannot buy them. The game favours new cars with larger sizes, prices and motor efficiency (seperate from engine sustainability), making users spend unecessarily on these factors, or making it seem like losing cars are all they can afford. This causes unecessary spending as well as access inequality depending on an individual's socio-economic status. 
+
+**Environmental**
+
+This game seems to support big cars. Large cars tend to use more fuel or electricity, causing more carbon emissions. This is because length and tare weight attributes correspond directly to size and wade height probably corrrelates with height. This makes players favour large cars more, and this game would cause more large cars to be purchased, using more fuel and resources. 
+
+**Legal**
+
+In terms of misleading users, carsales.com.au is the most trusted second hand car sales website and information pulled from it would be accurate up to the pricing, as it may not be fully representative of a car model's value. However, as the creator of the game, I am to clearly state that this game is for education/entertainment and not to be taken as financial advice. 
