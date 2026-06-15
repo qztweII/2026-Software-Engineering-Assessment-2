@@ -53,7 +53,7 @@ An attribute would be considered unfair when such attribute correlates to other 
 > This refers to raw car data taken from carsales.com.au. 
 
 Data:
-- Too many to list
+- Too many to list (Whatever comes up in the features and specifications tab when you search a car in carsales.com.au)
 
 Methods: 
 - None
@@ -75,7 +75,7 @@ Method:
 - None
 
 #### Deck
-> This contains cards for each player
+> This contains cards for the player and bot
 
 Data:
 - cards: list
@@ -87,7 +87,7 @@ Methods:
 + receive_card(): void
 
 #### Player
-> This is the class that the user directly interacts with. Players choose the attribute they want to compare. 
+> This is the class that the user directly interacts with. Players choose the attribute they want to compare in the round. 
 
 Data:
 - deck: Deck
