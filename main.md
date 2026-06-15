@@ -41,6 +41,9 @@ An attribute would be considered unfair when such attribute correlates to other 
 ### UI Story boards:
 ![Storyboard](images/storyboard.png)
 
+### Card design (improved):
+![Card design, but better than the one shown on the storyboard](images/cardDesign.png)
+
 ## Classes & diagram (Part B & C)
 ### Diagram
 
@@ -112,6 +115,7 @@ Data:
 - current_cards: list
 - chosen_attribute: string
 - reserve_deck: list
+
 Methods:
 + determine_winner()
 + exit()
