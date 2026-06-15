@@ -59,7 +59,7 @@ Methods:
 - None
 
 #### Card:
-> This inherits the name, picture and six attributes from car class. 
+> This inherits the name, picture and six attributes from car class. This is what gets played each round. 
 
 Data:
 - picture: image
