@@ -46,7 +46,7 @@ An attribute would be considered unfair when such attribute correlates to other 
 
 ## Classes & diagram (Part B & C)
 ### Diagram
-
+![Class diagram](images/classDiagram.png)
 
 ### Classes explanation:
 #### Car:
