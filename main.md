@@ -3,23 +3,22 @@
 ## Game mechanics design (Part A, D & E):
 ### Data selection and game attributes:
 The game will use six attributes from cars in carsale, in the order of possibly most powerful to least powerful attribute:
-
+- Power to weight
+    - This is chosen instead of engine power to remove the heavy car advantage as they require more power to move at the same speed. Engine quality is sometimes measured in time to accelerate to 100 km/h, but I was unable to find it on carsales, and I don't want to explain to those who don't know cars that this stat is best when it is low, considering other stats are the higher the better.
+- Tare mass
+    - Cars are highly variable in terms of tare mass, and this. However, it is probably affected by price. 
+- Length
+    - There needs to some information on the car's dimensions. Length is quite basic, but works. It also does not correlate to a car's performance. 
+- Wade depth
+    - This is a 'wild card' stat, hopefully redeeming any 'bad' cars that appear as this is not affected much by other stats, but otherwise probably has little influence on the game and was placed to create the sixth attribute.
 - Price
     - This is an easy, familiar and highly obvious stat that people will instantly recognise. However, having higher prices usually correspond to having higher other attributes. 
 - Release year
     - This is another obvious stat that people will also understand quickly. However, this alone can cause a 'crappy' car to beat an extremely good car just because it was slightly older, but usually this would cause a draw because there are only so many years a car can be made in that can be sold on carsales.com.au. 
-- Tare mass
-    - Cars are highly variable in terms of tare mass, and this. However, it is probably affected by price. 
-- Power to weight
-    - This is chosen instead of engine power to remove the heavy car advantage as they require more power to move at the same speed. Engine quality is sometimes measured in time to accelerate to 100 km/h, but I was unable to find it on carsales, and I don't want to explain to those who don't know cars that this stat is best when it is low, considering other stats are the higher the better. 
-- Length
-    - There needs to some information on the car's dimensions. Length is quite basic, but works. 
-- Wade depth
-    - This is a 'wild card' stat, hopefully redeeming any 'bad' cars that appear as this is not affected much by other stats, but otherwise probably has little influence on the game and was placed to create the sixth attribute.
 
 Game balance:
 
-An attribute would be considered unfair when such attribute correlates to other attributes becoming high. This makes some cars overpowered while others will have no chances. In order to make the game more fair, I have chosen attributes that are quite seperate from each other so there is more chance that cards are not totally overpowered and others completely useless. 
+An attribute would be considered unfair when such attribute correlates to other attributes becoming high. This makes some cars overpowered while others will have no chances. In order to make the game more fair, I have chosen attributes that are quite seperate from each other so there is more chance that cards are not totally overpowered and others completely useless. For example, to balance price, I used length because I believe that does not have a correlation with price, and power to weight that depends purely on large engine strength and light weight. 
 
 ### Game procedure:
 
@@ -48,6 +47,10 @@ An attribute would be considered unfair when such attribute correlates to other 
 ### Diagram
 ![Class diagram](images/classDiagram.png)
 
+### Design explanation:
+1. Bot uses a seperate `choose_attribute()` that incorporates the ease variable
+2. Game stores reserve deck for draws. 
+
 ### Classes explanation:
 #### Car:
 > This refers to raw car data taken from carsales.com.au. 
@@ -59,7 +62,7 @@ Methods:
 - None
 
 #### Card:
-> This inherits the name, picture and six attributes from car class. This is what gets played each round. 
+> This takes the name, picture and six attributes from car class. This is what gets played each round. 
 
 Data:
 - picture: image
